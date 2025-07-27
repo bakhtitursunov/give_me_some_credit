@@ -5,9 +5,9 @@
 This project aims to build a robust and interpretable machine learning pipeline to predict the **Probability of Default (PD)** and calculate the **Expected Credit Loss (ECL)** for loan applicants. It follows a simplified **IFRS 9 framework** using publicly available data.
 
 > 💡 **ECL Formula**:  
-> \[
+> $$
 > \text{ECL} = \text{PD} \times \text{LGD} \times \text{EAD}
-> \]
+> $$
 
 Where:
 - **PD** — Probability of Default (learned via ML)
